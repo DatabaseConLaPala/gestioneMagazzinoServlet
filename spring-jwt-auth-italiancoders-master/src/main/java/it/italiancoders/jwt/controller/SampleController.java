@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     /*
-        Esempio di endpoint per cui e'possibile accedere  anche senza token
+        Esempio di endpoint per cussi e'possibile accedere  anche senza token
      */
     @RequestMapping(value = "public/hello", method = RequestMethod.GET)
     public @ResponseBody String publicHelloWorld(){
